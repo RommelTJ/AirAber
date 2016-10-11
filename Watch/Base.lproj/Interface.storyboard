@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11077"/>
     </dependencies>
     <scenes>
-        <!--Schedule-->
+        <!--Air Aber-->
         <scene sceneID="kff-AC-jXV">
             <objects>
-                <controller identifier="Schedule" id="VK3-CZ-WDB">
+                <controller identifier="Schedule" title="Air Aber" id="VK3-CZ-WDB" customClass="ScheduleInterfaceController" customModule="Watch_Extension">
                     <items>
                         <table alignment="left" id="hWS-LJ-TC9">
                             <items>
@@ -53,6 +53,9 @@
                             </items>
                         </table>
                     </items>
+                    <connections>
+                        <outlet property="flightsTable" destination="hWS-LJ-TC9" id="c9a-rt-yd4"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="-347" y="-143"/>
@@ -111,4 +114,5 @@
             <point key="canvasLocation" x="-60" y="-142"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
 </document>
