@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="iM2-Em-Xps">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="VK3-CZ-WDB">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11077"/>
     </dependencies>
     <scenes>
+        <!--Schedule-->
+        <scene sceneID="kff-AC-jXV">
+            <objects>
+                <controller identifier="Schedule" id="VK3-CZ-WDB">
+                    <items>
+                        <table alignment="left" id="hWS-LJ-TC9">
+                            <items>
+                                <tableRow identifier="FlightRow" id="cc3-DG-0mD">
+                                    <group key="rootItem" width="1" alignment="left" id="cg4-dF-zhL"/>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-455" y="-144"/>
+        </scene>
         <!--Flight-->
         <scene sceneID="dH1-DB-KVT">
             <objects>
