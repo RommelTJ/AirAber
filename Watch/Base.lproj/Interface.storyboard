@@ -68,6 +68,33 @@
             </objects>
             <point key="canvasLocation" x="-347" y="-143"/>
         </scene>
+        <!--CheckIn-->
+        <scene sceneID="Vzc-rY-Y0Q">
+            <objects>
+                <controller identifier="CheckIn" id="viq-gb-4a4">
+                    <items>
+                        <group width="1" height="1" alignment="center" contentMode="center" layout="vertical" id="zCs-jH-c7K">
+                            <items>
+                                <group height="30" alignment="center" spacing="4" id="wx8-Be-bmV">
+                                    <items>
+                                        <label alignment="left" verticalAlignment="center" text="MEL" id="Nqb-JB-pqJ">
+                                            <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                                        </label>
+                                        <imageView width="24" height="20" alignment="left" verticalAlignment="center" image="Plane" id="LF6-Ln-Js8">
+                                            <color key="tintColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </imageView>
+                                        <label alignment="right" verticalAlignment="center" text="SFO" id="pGU-iw-MjB">
+                                            <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                                        </label>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-207" y="145"/>
+        </scene>
         <!--Flight-->
         <scene sceneID="dH1-DB-KVT">
             <objects>
