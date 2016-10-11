@@ -71,7 +71,7 @@
         <!--CheckIn-->
         <scene sceneID="Vzc-rY-Y0Q">
             <objects>
-                <controller identifier="CheckIn" id="viq-gb-4a4">
+                <controller identifier="CheckIn" id="viq-gb-4a4" customClass="CheckInInterfaceController" customModule="Watch_Extension">
                     <items>
                         <group width="1" height="1" alignment="center" contentMode="center" layout="vertical" id="zCs-jH-c7K">
                             <items>
@@ -97,10 +97,18 @@
                                         </items>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
                                     </group>
+                                    <connections>
+                                        <action selector="checkInButtonTapped" destination="viq-gb-4a4" id="VpV-T3-eTo"/>
+                                    </connections>
                                 </button>
                             </items>
                         </group>
                     </items>
+                    <connections>
+                        <outlet property="backgroundGroup" destination="zCs-jH-c7K" id="8sm-ey-B7z"/>
+                        <outlet property="destinationLabel" destination="pGU-iw-MjB" id="1Y7-hE-O1J"/>
+                        <outlet property="originLabel" destination="Nqb-JB-pqJ" id="6yf-O8-UIa"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="-207" y="145"/>
