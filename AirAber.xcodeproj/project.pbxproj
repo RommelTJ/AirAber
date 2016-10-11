@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7723F9351DAC9DA500F5C35E /* FlightInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7723F9341DAC9DA500F5C35E /* FlightInterfaceController.swift */; };
 		778D1E791DA70062009C9A74 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 778D1E771DA70062009C9A74 /* Interface.storyboard */; };
 		778D1E7B1DA70062009C9A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 778D1E7A1DA70062009C9A74 /* Assets.xcassets */; };
 		778D1E821DA70062009C9A74 /* Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 778D1E811DA70062009C9A74 /* Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -69,6 +70,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7723F9341DAC9DA500F5C35E /* FlightInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightInterfaceController.swift; sourceTree = "<group>"; };
 		778D1E751DA70062009C9A74 /* Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		778D1E781DA70062009C9A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		778D1E7A1DA70062009C9A74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				778D1E881DA70062009C9A74 /* ExtensionDelegate.swift */,
+				7723F9341DAC9DA500F5C35E /* FlightInterfaceController.swift */,
 				778D1E8A1DA70062009C9A74 /* Assets.xcassets */,
 				778D1E8C1DA70062009C9A74 /* Info.plist */,
 			);
@@ -332,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				778D1E891DA70062009C9A74 /* ExtensionDelegate.swift in Sources */,
+				7723F9351DAC9DA500F5C35E /* FlightInterfaceController.swift in Sources */,
 				778D1E981DA70A1F009C9A74 /* Flight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -597,6 +601,7 @@
 				778D1E921DA70062009C9A74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		778D1E941DA70062009C9A74 /* Build configuration list for PBXNativeTarget "Watch" */ = {
 			isa = XCConfigurationList;
@@ -605,6 +610,7 @@
 				778D1E961DA70062009C9A74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B8FA2341B72275A00B1E765 /* Build configuration list for PBXProject "AirAber" */ = {
 			isa = XCConfigurationList;
