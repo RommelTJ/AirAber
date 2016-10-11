@@ -12,7 +12,7 @@
                     <items>
                         <table alignment="left" id="hWS-LJ-TC9">
                             <items>
-                                <tableRow identifier="FlightRow" id="cc3-DG-0mD">
+                                <tableRow identifier="FlightRow" id="cc3-DG-0mD" customClass="FlightRowController" customModule="Watch_Extension">
                                     <group key="rootItem" width="1" height="0.0" alignment="left" spacing="6" id="cg4-dF-zhL">
                                         <items>
                                             <separator height="1" heightAdjustment="-4" alignment="left" verticalAlignment="center" id="mvq-om-8jh">
@@ -49,6 +49,14 @@
                                             </group>
                                         </items>
                                     </group>
+                                    <connections>
+                                        <outlet property="destinationLabel" destination="anI-Ar-zYv" id="EpZ-N5-lfE"/>
+                                        <outlet property="flightNumberLabel" destination="cdb-nK-chg" id="AwG-PH-bnb"/>
+                                        <outlet property="originLabel" destination="hy0-1j-WWK" id="WUo-7a-Iu5"/>
+                                        <outlet property="planeImage" destination="S3l-lI-nK5" id="m9X-lr-djr"/>
+                                        <outlet property="separator" destination="mvq-om-8jh" id="79o-vW-j5W"/>
+                                        <outlet property="statusLabel" destination="2cO-m4-RiJ" id="SsT-Ul-q6K"/>
+                                    </connections>
                                 </tableRow>
                             </items>
                         </table>

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7723F9351DAC9DA500F5C35E /* FlightInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7723F9341DAC9DA500F5C35E /* FlightInterfaceController.swift */; };
 		774E71E31DAD991600B140C7 /* ScheduleInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774E71E21DAD991600B140C7 /* ScheduleInterfaceController.swift */; };
+		774E71E51DAD9C1F00B140C7 /* FlightRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774E71E41DAD9C1F00B140C7 /* FlightRowController.swift */; };
 		778D1E791DA70062009C9A74 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 778D1E771DA70062009C9A74 /* Interface.storyboard */; };
 		778D1E7B1DA70062009C9A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 778D1E7A1DA70062009C9A74 /* Assets.xcassets */; };
 		778D1E821DA70062009C9A74 /* Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 778D1E811DA70062009C9A74 /* Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -73,6 +74,7 @@
 /* Begin PBXFileReference section */
 		7723F9341DAC9DA500F5C35E /* FlightInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightInterfaceController.swift; sourceTree = "<group>"; };
 		774E71E21DAD991600B140C7 /* ScheduleInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleInterfaceController.swift; sourceTree = "<group>"; };
+		774E71E41DAD9C1F00B140C7 /* FlightRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightRowController.swift; sourceTree = "<group>"; };
 		778D1E751DA70062009C9A74 /* Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		778D1E781DA70062009C9A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		778D1E7A1DA70062009C9A74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 			children = (
 				778D1E881DA70062009C9A74 /* ExtensionDelegate.swift */,
 				7723F9341DAC9DA500F5C35E /* FlightInterfaceController.swift */,
+				774E71E41DAD9C1F00B140C7 /* FlightRowController.swift */,
 				774E71E21DAD991600B140C7 /* ScheduleInterfaceController.swift */,
 				778D1E8A1DA70062009C9A74 /* Assets.xcassets */,
 				778D1E8C1DA70062009C9A74 /* Info.plist */,
@@ -340,6 +343,7 @@
 				778D1E891DA70062009C9A74 /* ExtensionDelegate.swift in Sources */,
 				7723F9351DAC9DA500F5C35E /* FlightInterfaceController.swift in Sources */,
 				774E71E31DAD991600B140C7 /* ScheduleInterfaceController.swift in Sources */,
+				774E71E51DAD9C1F00B140C7 /* FlightRowController.swift in Sources */,
 				778D1E981DA70A1F009C9A74 /* Flight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
